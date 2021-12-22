@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="952px"
+     height="526px" viewBox="0 0 952 526" xml:space="preserve">
+<g id="Layer_2">
+    <image overflow="visible"  width="893" height="500" id="u2qFp9_3_" xlink:href="images/map.png"  transform="matrix(0.9999 0 0 0.9999 29.5557 13.0312)">
+        </image>
+
+        <image class="icon animated infinite" overflow="visible"  width="45" height="45" xlink:href="images/icon-map-1.png"  transform="matrix(1 0 0 1 140.5039 52.2578)">
+    </image>
+
+        <image class="icon animated infinite" overflow="visible"  width="45" height="45" xlink:href="images/icon-map-2.png"  transform="matrix(1 0 0 1 91.2998 123.7793)">
+    </image>
+
+        <image class="icon animated infinite" overflow="visible"  width="45" height="45" xlink:href="images/icon-map-6.png"  transform="matrix(1 0 0 1 484.3965 54.2578)">
+    </image>
+
+        <image class="icon animated infinite" overflow="visible"  width="45" height="45" xlink:href="images/icon-map-8.png"  transform="matrix(1 0 0 1 699.3965 54.2578)">
+    </image>
+
+        <image class="icon animated infinite" overflow="visible"  width="45" height="45" xlink:href="images/icon-map-3.png"  transform="matrix(1 0 0 1 581.1855 113.7363)">
+    </image>
+
+        <image class="icon animated infinite" overflow="visible"  width="45" height="45" xlink:href="images/icon-map-7.png"  transform="matrix(1 0 0 1 807.0664 378.7363)">
+    </image>
+
+        <image class="icon animated infinite" overflow="visible"  width="45" height="45" xlink:href="images/icon-map-9.png"  transform="matrix(1 0 0 1 473.4995 358.2363)">
+    </image>
+
+        <image class="icon animated infinite" overflow="visible"  width="45" height="45" xlink:href="images/icon-map-4.png"  transform="matrix(1 0 0 1 257.4995 338.7363)">
+    </image>
+
+        <image class="icon animated infinite" overflow="visible"  width="45" height="45" xlink:href="images/icon-map-5.png"  transform="matrix(1 0 0 1 217.5 397.7363)">
+    </image>
+</g>
+<g id="Layer_1">
+    <g id="Aeon" class="interact">
+        <g id="circle-1" >
+            <g>
+                <path class="interact" fill="#FFFFFF" d="M314.159,292.533c-33.951,49.896-101.938,62.822-151.841,28.873
+                    c-49.903-33.945-62.835-101.916-28.877-151.811c33.952-49.896,101.935-62.825,151.842-28.876
+                    C335.186,174.669,348.118,242.636,314.159,292.533z"/>
+                <path fill="#286EAB" d="M338.799,231.161c0,23.085-6.891,45.417-19.932,64.577c-17.275,25.387-43.408,42.529-73.583,48.268
+                    c-30.176,5.738-60.778-0.617-86.171-17.893c-31.504-21.432-50.313-56.998-50.313-95.146c0-23.086,6.893-45.416,19.932-64.574
+                    c17.276-25.389,43.408-42.532,73.583-48.271c30.174-5.739,60.778,0.616,86.172,17.891
+                    C319.991,157.446,338.799,193.014,338.799,231.161z M120.191,230.967c0,34.373,16.946,66.424,45.33,85.73
+                    c22.878,15.563,50.449,21.289,77.634,16.119c27.186-5.168,50.729-20.613,66.294-43.486
+                    c11.749-17.264,17.958-37.378,17.958-58.169c0-34.375-16.944-66.423-45.329-85.73c-22.879-15.566-50.451-21.288-77.636-16.12
+                    c-27.185,5.171-50.728,20.614-66.293,43.488C126.401,190.062,120.191,210.175,120.191,230.967z"/>
+            </g>
+            <g>
+                <path fill="#C1D9EA" d="M168.19,314.01c17.184,11.689,36.31,16.273,56.31,16.148V233.5h-99.723
+                    C124.845,264.5,140.189,294.965,168.19,314.01z"/>
+            </g>
+            <g>
+                <path fill="#FFFFFF" d="M303.121,284.023c-29.583,43.471-88.816,54.733-132.297,25.153
+                    c-43.48-29.573-54.745-88.796-25.16-132.267c29.582-43.472,88.815-54.738,132.297-25.16
+                    C321.439,181.328,332.708,240.548,303.121,284.023z"/>
+            </g>
+        </g>
+            <image overflow="visible" width="162" height="84" xlink:href="images/logo-aeon.jpg"  transform="matrix(1 0 0 1 142.7993 189.0635)"></image>
+            <image overflow="visible" class="tooltip1" title="Click for more details" width="230" height="230" xlink:href="images/client-standin.png"  transform="matrix(1 0 0 1 108 115)"></image>
+
+    </g>
+    <g id="MnS" class="interact">
+        <g id="circle-2">
+            <g>
+                <path class="interact" fill="#FFFFFF" d="M416.331,321.422c-49.896-33.951-62.822-101.938-28.873-151.841
+                    c33.944-49.903,101.916-62.835,151.809-28.877c49.897,33.952,62.825,101.935,28.876,151.842
+                    C534.194,342.449,466.227,355.381,416.331,321.422z"/>
+                <path fill="#286EAB" d="M477.702,346.062c-23.085,0-45.417-6.892-64.577-19.933c-25.387-17.274-42.529-43.407-48.269-73.583
+                    c-5.737-30.176,0.617-60.778,17.893-86.171c21.432-31.504,56.998-50.313,95.147-50.313c23.086,0,45.416,6.893,64.573,19.932
+                    c25.39,17.276,42.532,43.408,48.271,73.583c5.739,30.174-0.616,60.777-17.892,86.172
+                    C551.417,327.254,515.85,346.062,477.702,346.062z M477.896,127.455c-34.375,0-66.424,16.946-85.73,45.33
+                    c-15.564,22.878-21.289,50.449-16.12,77.634c5.169,27.185,20.613,50.729,43.486,66.294
+                    c17.265,11.749,37.379,17.958,58.169,17.958c34.375,0,66.423-16.944,85.729-45.329c15.566-22.879,21.288-50.451,16.12-77.636
+                    c-5.171-27.185-20.614-50.728-43.488-66.293C518.802,133.665,498.688,127.455,477.896,127.455z"/>
+            </g>
+            <g>
+                <path fill="#C1D9EA" d="M394.922,175.322c-11.688,17.183-16.342,36.178-16.216,56.178H475.5v-99.46
+                    C444.5,132.108,413.967,147.321,394.922,175.322z"/>
+            </g>
+            <g>
+                <path fill="#FFFFFF" d="M424.84,310.384c-43.472-29.583-54.733-88.816-25.154-132.297c29.573-43.48,88.796-54.745,132.267-25.16
+                    c43.472,29.582,54.738,88.815,25.16,132.298C527.535,328.702,468.315,339.971,424.84,310.384z"/>
+            </g>
+        </g>
+
+            <image overflow="visible" width="164" height="97" xlink:href="images/logo-marks-and-spencers.png"  transform="matrix(1 0 0 1 395.7993 190.0625)">
+        </image>
+        <image overflow="visible" class="tooltip1" title="Click for more details" width="230" height="230" xlink:href="images/client-standin.png"  transform="matrix(1 0 0 1 362 115)"></image>
+    </g>
+    <g id="Robinsons" class="interact" >
+        <g id="circle-3">
+            <g>
+                <path class="interact" fill="#FFFFFF" d="M792.938,140.704c49.896,33.951,62.822,101.938,28.873,151.841
+                    c-33.943,49.903-101.916,62.836-151.81,28.877c-49.897-33.952-62.825-101.935-28.876-151.842
+                    C675.074,119.677,743.042,106.745,792.938,140.704z"/>
+                <path fill="#286EAB" d="M731.566,116.063c23.086,0,45.417,6.891,64.576,19.932c25.388,17.275,42.529,43.408,48.27,73.583
+                    c5.737,30.176-0.618,60.777-17.894,86.171c-21.432,31.505-56.997,50.313-95.146,50.313c-23.086,0-45.416-6.894-64.574-19.933
+                    c-25.389-17.276-42.532-43.407-48.271-73.583c-5.739-30.174,0.615-60.778,17.891-86.172
+                    C657.852,134.872,693.419,116.063,731.566,116.063z M731.372,334.672c34.374,0,66.424-16.947,85.729-45.33
+                    c15.564-22.879,21.289-50.449,16.12-77.635s-20.612-50.729-43.485-66.294c-17.266-11.749-37.379-17.958-58.17-17.958
+                    c-34.375,0-66.424,16.944-85.73,45.329c-15.566,22.879-21.288,50.451-16.12,77.636c5.171,27.186,20.614,50.729,43.488,66.293
+                    C690.467,328.461,710.58,334.672,731.372,334.672z"/>
+            </g>
+            <g>
+                <path fill="#C1D9EA" d="M814.213,286.74c11.689-17.182,16.478-36.24,16.352-56.24H733.5v99.586
+                    C764.5,330.018,795.168,314.742,814.213,286.74z"/>
+            </g>
+            <g>
+                <path fill="#FFFFFF" d="M784.429,151.742c43.473,29.583,54.734,88.816,25.154,132.297
+                    c-29.573,43.48-88.796,54.746-132.267,25.16c-43.473-29.582-54.738-88.815-25.16-132.297
+                    C681.733,133.424,740.954,122.155,784.429,151.742z"/>
+            </g>
+        </g>
+
+            <image overflow="visible" width="179" height="24" xlink:href="images/logo-robinsons.jpg"  transform="matrix(1 0 0 1 641.9688 219.0625)">
+        </image>
+        <image overflow="visible" class="tooltip1" title="Click for more details" width="230" height="230" xlink:href="images/client-standin.png"  transform="matrix(1 0 0 1 616 115)"></image>
+    </g>
+
+</g>
+</svg>

@@ -1,0 +1,412 @@
+@import mixins.sass
+@import variables.sass
+@import animate.css
+@import float-anim.css
+
+/* Styles ==============================================*/
+/* Main Styles ==============================================*/
+body
+	font: 16px $font-body
+	line-height: $line-height-normal
+	color: $color-body
+	b 
+		font-family: $font-body-bold
+		font-weight: normal
+
+h1,h2,h3,h4,h5,h6
+	clear: both
+	color: inherit
+	font-family: $font-header
+	margin: 0em 0em 1em 0em
+h1
+	font-size: 50px
+h2
+	font-size: 40px
+h3
+	font-size: 30px
+h4	
+	font-size: 20px
+h4.light
+	font-family: $font-header-semi
+p
+	margin: 1em 0em
+
+sup
+	top: -0.25em
+	left: 0.1em
+
+footer
+	font-size: 13px
+	padding: 40px 0	
+	a
+		margin: 0px 10px
+		color: $color-body
+	a:hover
+		color: $color-body
+
+a.button
+	display: block
+	position: relative
+	color: $color-white
+	font: 15px $font-body-bold			
+	margin-bottom: 3px
+	cursor: pointer
+	text-shadow: none
+	span
+		display: block
+		padding: 10px 15px
+		margin-right: $address-a-padding
+		background-color: $color-blue
+		min-height: $address-a-icon-height
+	span:first-child
+		border-right: $border-thin transparent
+	span:nth-child(2)
+		position: absolute
+		right: 0
+		top: 0
+		margin-right: 0
+		width: 39px
+		padding: 10px 10px
+		text-align: center
+		box-sizing: border-box
+		i
+			position: absolute
+			@include align-center2
+a.button:hover span
+	background-color: $color-button-hover
+a.button-inline
+	@extend a.button
+	display: inline-block 
+
+a.button:hover
+	text-decoration: none
+
+blockquote
+	border-left: none
+	font: 28px 'OpenSans-LightItalic'
+	line-height: 1.2em
+	font-style: italic
+
+blockquote:before 
+	content: url(../images/quote1.png)
+	line-height: 0.1em
+	margin-right: 0.25em
+	vertical-align: 0.4em
+blockquote:after 
+	content: url(../images/quote2.png)
+	line-height: 0.1em
+	margin-left: 0.25em
+	vertical-align: -0.1em
+.quote-person
+	font: 16px 'OpenSans-SemiBold' !important
+
+.dark-overlay
+	width: 100% !important
+	height: 100% !important
+	position: fixed
+	top: 0
+#footer
+	position: relative
+
+	a.return-to-top
+		padding: 5px
+		background-color: $color-blue
+		position: absolute
+		top: -$return-to-top-height
+		right: 0
+		color: $color-white
+.navbar-toggle
+	padding-top: 16px
+
+#scroll-down
+	text-align: right
+	font-family: $font-body-bold
+	font-size: 20px
+	background-color: $color-address
+	position: absolute
+	display: inline-block
+	color: $color-white
+	bottom: 0
+	left: 0
+	padding: 20px 30px 20px 15px
+	width: 30%
+
+/* padding and margins ============================================== */
+.ptop-20
+	padding-top: 20px
+.ptop-45
+	padding-top: 45px
+/* SVG ============================================== */
+svg 
+	text, tspan, path, circle
+		pointer-events: none
+
+	.interact
+		pointer-events: initial !important
+	.interact:hover
+		cursor: pointer !important
+
+
+/* Colors ============================================== */
+div.light
+	color: $color-white
+	background-color: $color-blue
+	p
+		font: 18px $font-body-light	
+
+div.light-gray
+	background-color: $color-light-gray
+div.light-gray2
+	background-color: $color-light-gray2
+
+/* Layout ============================================== */
+.valign-middle
+	@include vertical-align-middle
+
+.carousel
+	.carousel-inner 
+		.item
+			padding-top: $nav-height
+			height: $mast-height
+			background: no-repeat bottom center
+			-webkit-background-size: cover
+			-moz-background-size: cover
+			-o-background-size: cover
+			background-size: cover
+
+		.carousel-caption
+			@include vertical-align-middle-percent(55%)
+			padding: 0
+			bottom: initial
+			text-shadow: 0 5px 5px rgba(0,0,0,.8)
+
+			h1
+				margin: 0
+
+	a span.arrow
+		position: absolute
+		display: block
+		width: 56px
+		height: 55px
+		@include vertical-align-middle
+	a.left, a.right
+		background-image: none !important
+		filter: none 
+		opacity: 1 !important
+	a.left span.arrow	
+		background: url('../images/carousel-arrow-off.png') no-repeat center center 
+		right: 0
+	a.left:hover span.arrow, a.left.active span.arrow
+		background: url('../images/carousel-arrow-on.png') no-repeat center center 
+	a.right span.arrow
+		@include rotate-180
+		background: url('../images/carousel-arrow-off.png') no-repeat center center 
+		margin-top: -27px
+	a.right:hover span.arrow, a.right.active span.arrow
+		background: url('../images/carousel-arrow-on.png') no-repeat center center 
+
+.container-fluid
+	margin: 0
+	padding: 50px 0
+
+/* Nav ==============================================*/
+.navbar-wrapper 
+	position: absolute
+	top: 20px
+	right: 0
+	left: 0
+	z-index: 20
+
+	>.container
+		padding: 0
+
+		.navbar
+			background-color: $color-white
+			margin-bottom: 0
+
+			.icon-bar
+				background-color: $color-gray
+				width: 30px
+				height: 4px
+			ul.nav				
+				li
+					-webkit-box-sizing: border-box
+					-moz-box-sizing: border-box
+					box-sizing: border-box
+					padding: 7px 10px 
+					border-left: $border-thin $color-nav-border
+					height: $nav-height
+					width: $nav-width
+				li:hover
+					cursor: pointer
+				li.last
+					border-right: $border-thin $color-nav-border
+				li > a
+					@include vertical-align-bottom
+					padding: 0
+					font: 15px $font-body-bold
+					color: $color-nav
+
+				li:hover > a, li > a:hover
+					color: $color-nav-hover
+				li.active
+					border-top: $border-thick $color-blue
+				li.active > a					
+					color: $color-body
+				li > a:hover, li > a:active
+					background-color: transparent
+			//#navbar img
+			//	border-left: $border-thin $color-gray
+
+/* Page specific styles ============================================== */
+#page-index
+	#our-clients
+		position: relative
+		#clients-container
+			max-width: $client-width
+			max-height: $client-height
+			margin: 0 auto
+			.circle:hover
+				cursor: pointer
+			.icon
+				-webkit-animation-duration: 5s
+				animation-duration: 5s
+	
+	.client-body
+		position: relative
+		width: 100%
+		max-width: 845px
+		margin: 0 auto
+		padding-top: 33px	
+		a.close-btn
+			position: absolute
+			right: 0
+			top: 0
+	.client-details		
+		background-color: rgba(255, 255, 255, 0.5)
+		background-color: #efefef
+		font-size: 16px
+		line-height: 1em		
+		-webkit-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75)
+		-moz-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75)
+		box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75)
+		.border-right
+			border-right: 1px solid $color-body
+		.padding-20
+			padding: 20px
+		.padding-special
+			padding: 20px 35px 20px 25px
+
+
+#page-solution
+	#solution-container
+		max-width: $solutions-chart-size
+		max-height: $solutions-chart-size
+		margin: -80px auto -50px auto
+
+#page-contact 
+	.row.address
+		padding: 0 $col-padding
+	#map-canvas
+		height: $map-height
+	#address-box
+		min-height: $map-height
+		background-color: $color-address
+		color: $color-white
+		padding: 20px
+
+		address 
+			span
+				color: $color-blue		
+
+/* Media Queries ============================================== */
+@media screen and (min-width: 992px)
+	.container
+		width: 952px
+
+	.container-fluid > .container
+		width: 847px
+
+@media screen and (max-width: 991px)
+#page-index
+	#our-clients
+		.client-details
+			width: 90% !important
+
+			.border-right
+				border-right: none
+			.padding-special
+				padding: 20px 35px 20px 35px
+
+@media screen and (max-width: 768px)
+	#header
+		.container
+			margin: 0
+			width: 100%
+	.navbar-wrapper 
+		top: 0
+		>.container
+			.navbar				
+				#navbar img
+					border-left: none
+	#scroll-down
+		width: 60%
+	#page-index
+		.client-details
+			.border-right
+				border: none
+		.client-details div:first-child
+			margin-bottom: 20px
+@media screen and (max-width: 767px)
+	#navbar
+		padding: 0
+	.navbar-wrapper 
+		>.container
+			.navbar				
+				ul.nav
+					margin: 0		
+					li
+						height: 45px
+						width: 100%
+						background-color: $color-light-gray2
+						border-left: $border-thick transparent
+						border-bottom: $border-thin $color-gray
+					li.last
+						border: none
+					li > a
+						@include vertical-align-middle
+					li.active
+						border-top: none
+						border-left: $border-thick $color-blue
+
+@media screen and (max-width: 480px)
+	h1
+		font-size: 32px
+	h3
+		margin-top: 1em
+
+	.mobile-text-center
+		text-align: center
+	.mobile-nopadding
+		padding: 0
+	footer
+		padding: 1em 0
+		a:first-child
+			margin-left: 0
+	#footer
+		span
+			display: block
+		a.return-to-top
+			right: 1em
+			top: -26px
+
+	#scroll-down
+		width: 80%
+	#page-solution
+		#solution-container
+			margin: -50px auto -50px auto
+
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none)  
+	/* IE10+ specific styles go here */
+	.carousel .carousel-inner .carousel-caption 
+		top: 60%

@@ -1,0 +1,63 @@
+//Vertical alignments
+@mixin vertical-align-bottom 
+  top: 100%
+  -webkit-transform: translateY(-100%)
+  -ms-transform: translateY(-100%)
+  transform: translateY(-100%)
+
+
+@mixin vertical-align-middle 
+  top: 50%
+  -webkit-transform: translateY(-50%)
+  -ms-transform: translateY(-50%)
+  transform: translateY(-50%)
+
+@mixin vertical-align-middle-percent($percent)
+  top: $percent
+  -webkit-transform: translateY(-50%)
+  -ms-transform: translateY(-50%)
+  transform: translateY(-50%)
+
+@mixin horizontal-align-center
+  left: 50%
+  -webkit-transform: translateX(-50%)
+  -ms-transform: translateX(-50%)
+  transform: translateX(-50%)
+
+@mixin align-center
+  left: 50%
+  top: 50%
+  -webkit-transform: translate(-50%, 0)
+  -ms-transform: translate(-50%, 0)
+  transform: translate(-50%, 0)
+
+@mixin align-center2
+  left: 50%
+  top: 50%
+  -webkit-transform: translate(-50%, -50%)
+  -ms-transform: translate(-50%, -50%)
+  transform: translate(-50%, -50%)
+
+
+//Border
+@mixin border-radius($radius)
+  -webkit-border-radius: $radius
+  -moz-border-radius: $radius
+  -ms-border-radius: $radius
+  border-radius: $radius
+
+//Rotate
+@mixin rotate($deg)
+  -ms-transform: rotate($deg) /* IE 9 */
+  -webkit-transform: rotate($deg) /* Chrome, Safari, Opera */
+  transform: rotate($deg)
+
+@mixin rotate-180
+  -ms-transform: rotate(180deg) /* IE 9 */
+  -webkit-transform: rotate(180deg) /* Chrome, Safari, Opera */
+  transform: rotate(180deg)
+
+@mixin transitions($time)
+  -webkit-transition: all $time ease
+  -moz-transition: all $time ease
+  transition: all $time ease
